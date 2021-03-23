@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from datetime import datetime
 
-def index(request, tvno = 0):
+def index(request, tvno = '0'):
     tv_list = [{'name':'東森', 'tvcode':'wW0VxYs-1ek'},
                {'name':'民視', 'tvcode':'XxJKnDLYZz4'},
                {'name':'公視', 'tvcode':'ED4QXd5xAco'},]
